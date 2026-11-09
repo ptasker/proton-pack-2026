@@ -33,16 +33,55 @@ port: it does not run on GPStar boards and cannot talk to GPStar firmware.
 No sound files are included. You need your own SD card of GPStar-numbered WAVs
 (see [docs/audio.md](docs/audio.md)).
 
-## Hardware at a glance
+## Hardware used
 
-| Part | Main pack | Wand |
-| --- | --- | --- |
-| Controller | ESP32-WROOM dev board | ESP32-C3 Super Mini |
-| Lights | 40-pixel cyclotron ring, 15-pixel power cell | 34-pixel chain, 28-segment bargraph (HT16K33) |
-| Audio | MAX98357A I2S amp, SPI microSD reader | None (the pack plays the wand's sounds) |
-| Controls | None (follows the wand) | 3 toggle switches, 1 fire button |
+Parts are listed by type; where the code depends on a specific part, it is
+named. Pin tables, wiring and power notes are in
+[docs/hardware.md](docs/hardware.md).
 
-Pin tables, wiring and power notes are in [docs/hardware.md](docs/hardware.md).
+### Main pack
+
+| Part | Details |
+| --- | --- |
+| Controller | ESP32-WROOM development board |
+| Cyclotron | 40-pixel WS2812 (NeoPixel) ring |
+| Power cell | 15-pixel WS2812 strip |
+| Amplifier | MAX98357A I2S mono amplifier breakout |
+| Speaker | One small speaker, driven by the amp |
+| Storage | 3.3V SPI microSD reader and a microSD card of WAV files |
+| Power | 5V battery supply for the pixels and amp |
+
+### Wand
+
+| Part | Details |
+| --- | --- |
+| Controller | ESP32-C3 Super Mini |
+| Pixels | 34 WS2812 pixels in one chain: 1 slo-blo, a 7-pixel vent jewel, 2 hat lights, 1 Clippard, and a 23-pixel firing strip |
+| Bargraph | Barmeter BL28Z-3005SA04Y, 28 segments |
+| Bargraph driver | HT16K33 I2C LED driver |
+| Level shifter | BSS138 bidirectional shifter between the 3.3V C3 and the 5V driver |
+| Switches | 3 maintained toggles (Activate, Vent, wand) |
+| Fire button | 1 normally-open momentary button |
+| Cable to pack | 3 wires: UART TX, UART RX, ground |
+
+### Simple pack
+
+| Part | Details |
+| --- | --- |
+| Controller | ESP32-WROOM on a Freenove ESP32 breakout board |
+| Cyclotron | Four 7-pixel WS2812 jewels, chained |
+| Power cell | 12-pixel WS2812 strip |
+| Wand pixels | 10 WS2812 pixels in one chain: a 4-pixel strip, 3 single pixels, and a 3-pixel strip |
+| Controls | 1 toggle switch and 1 momentary button |
+| Audio | MAX98357A amplifier, speaker and SPI microSD reader, as on the main pack |
+
+### Recommended extras
+
+- A 330-470 ohm resistor on each pixel data line.
+- A 5V-powered 74AHCT125 level shifter for the pixel data lines.
+- A 500-1000 uF capacitor across the cyclotron ring's power input.
+- A separate 5V supply or regulator for the ESP32, apart from the amp and
+  pixels.
 
 ## Getting started
 
