@@ -1,0 +1,148 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 868' width='1000' height='868' role='img' aria-label='Simple pack wiring'>
+<rect width='1000' height='868' fill='#ffffff'/>
+<text x='30' y='38' font-family='Helvetica, Arial, sans-serif' font-size='20' font-weight='700' fill='#1f2328'>Simple pack wiring</text>
+<line x1='280' y1='127.0' x2='400' y2='127.0' stroke='#1f6feb' stroke-width='2.2'/>
+<rect x='303.5' y='118.0' width='73' height='18' rx='4' fill='#ffffff' stroke='#1f6feb' stroke-width='1'/>
+<text x='340.0' y='131.0' text-anchor='middle' font-family='Helvetica, Arial, sans-serif' font-size='11' fill='#1f6feb'>330-470 Ω</text>
+<line x1='280' y1='267.0' x2='400' y2='267.0' stroke='#1f6feb' stroke-width='2.2'/>
+<rect x='303.5' y='258.0' width='73' height='18' rx='4' fill='#ffffff' stroke='#1f6feb' stroke-width='1'/>
+<text x='340.0' y='271.0' text-anchor='middle' font-family='Helvetica, Arial, sans-serif' font-size='11' fill='#1f6feb'>330-470 Ω</text>
+<line x1='280' y1='407.0' x2='400' y2='407.0' stroke='#1f6feb' stroke-width='2.2'/>
+<rect x='303.5' y='398.0' width='73' height='18' rx='4' fill='#ffffff' stroke='#1f6feb' stroke-width='1'/>
+<text x='340.0' y='411.0' text-anchor='middle' font-family='Helvetica, Arial, sans-serif' font-size='11' fill='#1f6feb'>330-470 Ω</text>
+<line x1='280' y1='547.0' x2='400' y2='547.0' stroke='#0a7d6c' stroke-width='2.2'/>
+<line x1='280' y1='573.0' x2='400' y2='573.0' stroke='#0a7d6c' stroke-width='2.2'/>
+<line x1='280' y1='599.0' x2='400' y2='599.0' stroke='#0a7d6c' stroke-width='2.2'/>
+<line x1='280' y1='625.0' x2='400' y2='625.0' stroke='#0a7d6c' stroke-width='2.2'/>
+<line x1='590' y1='127.0' x2='710' y2='127.0' stroke='#8250df' stroke-width='2.2'/>
+<line x1='590' y1='153.0' x2='710' y2='153.0' stroke='#8250df' stroke-width='2.2'/>
+<line x1='590' y1='179.0' x2='710' y2='179.0' stroke='#8250df' stroke-width='2.2'/>
+<line x1='590' y1='387.0' x2='710' y2='387.0' stroke='#7d5a2c' stroke-width='2.2'/>
+<line x1='590' y1='501.0' x2='710' y2='501.0' stroke='#7d5a2c' stroke-width='2.2'/>
+<rect x='400' y='70.0' width='190' height='612.0' rx='10' fill='#eef4ff' stroke='#1f2328' stroke-width='2'/>
+<text x='495.0' y='90.0' text-anchor='middle' font-family='Helvetica, Arial, sans-serif' font-size='15' font-weight='700' fill='#1f2328'>ESP32-WROOM</text>
+<text x='495.0' y='106.0' text-anchor='middle' font-family='Helvetica, Arial, sans-serif' font-size='11.5' fill='#57606a'>simple pack controller</text>
+<circle cx='400' cy='127.0' r='3.5' fill='#1f6feb'/>
+<text x='412' y='131.0' text-anchor='start' font-family='Helvetica, Arial, sans-serif' font-size='12.5' font-weight='600' fill='#1f2328'>GPIO22</text>
+<circle cx='400' cy='267.0' r='3.5' fill='#1f6feb'/>
+<text x='412' y='271.0' text-anchor='start' font-family='Helvetica, Arial, sans-serif' font-size='12.5' font-weight='600' fill='#1f2328'>GPIO23</text>
+<circle cx='400' cy='407.0' r='3.5' fill='#1f6feb'/>
+<text x='412' y='411.0' text-anchor='start' font-family='Helvetica, Arial, sans-serif' font-size='12.5' font-weight='600' fill='#1f2328'>GPIO21</text>
+<circle cx='400' cy='547.0' r='3.5' fill='#0a7d6c'/>
+<text x='412' y='551.0' text-anchor='start' font-family='Helvetica, Arial, sans-serif' font-size='12.5' font-weight='600' fill='#1f2328'>GPIO18</text>
+<circle cx='400' cy='573.0' r='3.5' fill='#0a7d6c'/>
+<text x='412' y='577.0' text-anchor='start' font-family='Helvetica, Arial, sans-serif' font-size='12.5' font-weight='600' fill='#1f2328'>GPIO19</text>
+<circle cx='400' cy='599.0' r='3.5' fill='#0a7d6c'/>
+<text x='412' y='603.0' text-anchor='start' font-family='Helvetica, Arial, sans-serif' font-size='12.5' font-weight='600' fill='#1f2328'>GPIO13</text>
+<circle cx='400' cy='625.0' r='3.5' fill='#0a7d6c'/>
+<text x='412' y='629.0' text-anchor='start' font-family='Helvetica, Arial, sans-serif' font-size='12.5' font-weight='600' fill='#1f2328'>GPIO4</text>
+<circle cx='590' cy='127.0' r='3.5' fill='#8250df'/>
+<text x='578' y='131.0' text-anchor='end' font-family='Helvetica, Arial, sans-serif' font-size='12.5' font-weight='600' fill='#1f2328'>GPIO26</text>
+<circle cx='590' cy='153.0' r='3.5' fill='#8250df'/>
+<text x='578' y='157.0' text-anchor='end' font-family='Helvetica, Arial, sans-serif' font-size='12.5' font-weight='600' fill='#1f2328'>GPIO27</text>
+<circle cx='590' cy='179.0' r='3.5' fill='#8250df'/>
+<text x='578' y='183.0' text-anchor='end' font-family='Helvetica, Arial, sans-serif' font-size='12.5' font-weight='600' fill='#1f2328'>GPIO14</text>
+<circle cx='590' cy='387.0' r='3.5' fill='#7d5a2c'/>
+<text x='578' y='391.0' text-anchor='end' font-family='Helvetica, Arial, sans-serif' font-size='12.5' font-weight='600' fill='#1f2328'>GPIO33</text>
+<circle cx='590' cy='501.0' r='3.5' fill='#7d5a2c'/>
+<text x='578' y='505.0' text-anchor='end' font-family='Helvetica, Arial, sans-serif' font-size='12.5' font-weight='600' fill='#1f2328'>GPIO32</text>
+<text x='409.0' y='668.0' font-family='Helvetica, Arial, sans-serif' font-size='12' fill='#1f2328'>5V</text>
+<rect x='443.0' y='655.0' width='42' height='18' rx='9' fill='#cf222e'/>
+<text x='464.0' y='668.0' text-anchor='middle' font-family='Helvetica, Arial, sans-serif' font-size='11' font-weight='700' fill='#ffffff'>5V</text>
+<text x='501.0' y='668.0' font-family='Helvetica, Arial, sans-serif' font-size='12' fill='#1f2328'>GND</text>
+<rect x='535.0' y='655.0' width='42' height='18' rx='9' fill='#30363d'/>
+<text x='556.0' y='668.0' text-anchor='middle' font-family='Helvetica, Arial, sans-serif' font-size='11' font-weight='700' fill='#ffffff'>GND</text>
+<rect x='30' y='70' width='250' height='130' rx='8' fill='#ffffff' stroke='#57606a' stroke-width='1.5'/>
+<text x='155.0' y='89' text-anchor='middle' font-family='Helvetica, Arial, sans-serif' font-size='14' font-weight='700' fill='#1f2328'>Cyclotron</text>
+<text x='155.0' y='105' text-anchor='middle' font-family='Helvetica, Arial, sans-serif' font-size='11.5' fill='#57606a'>4 x 7-pixel WS2812 jewels, chained</text>
+<text x='268' y='131.0' text-anchor='end' font-family='Helvetica, Arial, sans-serif' font-size='12.5' fill='#1f2328'>DIN</text>
+<circle cx='280' cy='127.0' r='3.5' fill='#1f6feb'/>
+<text x='268' y='157.0' text-anchor='end' font-family='Helvetica, Arial, sans-serif' font-size='12.5' fill='#1f2328'>5V</text>
+<rect x='38' y='144.0' width='42' height='18' rx='9' fill='#cf222e'/>
+<text x='59' y='157.0' text-anchor='middle' font-family='Helvetica, Arial, sans-serif' font-size='11' font-weight='700' fill='#ffffff'>5V</text>
+<text x='268' y='183.0' text-anchor='end' font-family='Helvetica, Arial, sans-serif' font-size='12.5' fill='#1f2328'>GND</text>
+<rect x='38' y='170.0' width='42' height='18' rx='9' fill='#30363d'/>
+<text x='59' y='183.0' text-anchor='middle' font-family='Helvetica, Arial, sans-serif' font-size='11' font-weight='700' fill='#ffffff'>GND</text>
+<rect x='30' y='210' width='250' height='130' rx='8' fill='#ffffff' stroke='#57606a' stroke-width='1.5'/>
+<text x='155.0' y='229' text-anchor='middle' font-family='Helvetica, Arial, sans-serif' font-size='14' font-weight='700' fill='#1f2328'>Power cell</text>
+<text x='155.0' y='245' text-anchor='middle' font-family='Helvetica, Arial, sans-serif' font-size='11.5' fill='#57606a'>12 x WS2812</text>
+<text x='268' y='271.0' text-anchor='end' font-family='Helvetica, Arial, sans-serif' font-size='12.5' fill='#1f2328'>DIN</text>
+<circle cx='280' cy='267.0' r='3.5' fill='#1f6feb'/>
+<text x='268' y='297.0' text-anchor='end' font-family='Helvetica, Arial, sans-serif' font-size='12.5' fill='#1f2328'>5V</text>
+<rect x='38' y='284.0' width='42' height='18' rx='9' fill='#cf222e'/>
+<text x='59' y='297.0' text-anchor='middle' font-family='Helvetica, Arial, sans-serif' font-size='11' font-weight='700' fill='#ffffff'>5V</text>
+<text x='268' y='323.0' text-anchor='end' font-family='Helvetica, Arial, sans-serif' font-size='12.5' fill='#1f2328'>GND</text>
+<rect x='38' y='310.0' width='42' height='18' rx='9' fill='#30363d'/>
+<text x='59' y='323.0' text-anchor='middle' font-family='Helvetica, Arial, sans-serif' font-size='11' font-weight='700' fill='#ffffff'>GND</text>
+<rect x='30' y='350' width='250' height='130' rx='8' fill='#ffffff' stroke='#57606a' stroke-width='1.5'/>
+<text x='155.0' y='369' text-anchor='middle' font-family='Helvetica, Arial, sans-serif' font-size='14' font-weight='700' fill='#1f2328'>Wand pixel chain</text>
+<text x='155.0' y='385' text-anchor='middle' font-family='Helvetica, Arial, sans-serif' font-size='11.5' fill='#57606a'>10 x WS2812</text>
+<text x='268' y='411.0' text-anchor='end' font-family='Helvetica, Arial, sans-serif' font-size='12.5' fill='#1f2328'>DIN</text>
+<circle cx='280' cy='407.0' r='3.5' fill='#1f6feb'/>
+<text x='268' y='437.0' text-anchor='end' font-family='Helvetica, Arial, sans-serif' font-size='12.5' fill='#1f2328'>5V</text>
+<rect x='38' y='424.0' width='42' height='18' rx='9' fill='#cf222e'/>
+<text x='59' y='437.0' text-anchor='middle' font-family='Helvetica, Arial, sans-serif' font-size='11' font-weight='700' fill='#ffffff'>5V</text>
+<text x='268' y='463.0' text-anchor='end' font-family='Helvetica, Arial, sans-serif' font-size='12.5' fill='#1f2328'>GND</text>
+<rect x='38' y='450.0' width='42' height='18' rx='9' fill='#30363d'/>
+<text x='59' y='463.0' text-anchor='middle' font-family='Helvetica, Arial, sans-serif' font-size='11' font-weight='700' fill='#ffffff'>GND</text>
+<rect x='30' y='490' width='250' height='208' rx='8' fill='#ffffff' stroke='#57606a' stroke-width='1.5'/>
+<text x='155.0' y='509' text-anchor='middle' font-family='Helvetica, Arial, sans-serif' font-size='14' font-weight='700' fill='#1f2328'>microSD reader</text>
+<text x='155.0' y='525' text-anchor='middle' font-family='Helvetica, Arial, sans-serif' font-size='11.5' fill='#57606a'>SPI, 3.3V module</text>
+<text x='268' y='551.0' text-anchor='end' font-family='Helvetica, Arial, sans-serif' font-size='12.5' fill='#1f2328'>SCK</text>
+<circle cx='280' cy='547.0' r='3.5' fill='#0a7d6c'/>
+<text x='268' y='577.0' text-anchor='end' font-family='Helvetica, Arial, sans-serif' font-size='12.5' fill='#1f2328'>MISO</text>
+<circle cx='280' cy='573.0' r='3.5' fill='#0a7d6c'/>
+<text x='268' y='603.0' text-anchor='end' font-family='Helvetica, Arial, sans-serif' font-size='12.5' fill='#1f2328'>MOSI</text>
+<circle cx='280' cy='599.0' r='3.5' fill='#0a7d6c'/>
+<text x='268' y='629.0' text-anchor='end' font-family='Helvetica, Arial, sans-serif' font-size='12.5' fill='#1f2328'>CS</text>
+<circle cx='280' cy='625.0' r='3.5' fill='#0a7d6c'/>
+<text x='268' y='655.0' text-anchor='end' font-family='Helvetica, Arial, sans-serif' font-size='12.5' fill='#1f2328'>VCC</text>
+<rect x='38' y='642.0' width='42' height='18' rx='9' fill='#bf8700'/>
+<text x='59' y='655.0' text-anchor='middle' font-family='Helvetica, Arial, sans-serif' font-size='11' font-weight='700' fill='#ffffff'>3V3</text>
+<text x='268' y='681.0' text-anchor='end' font-family='Helvetica, Arial, sans-serif' font-size='12.5' fill='#1f2328'>GND</text>
+<rect x='38' y='668.0' width='42' height='18' rx='9' fill='#30363d'/>
+<text x='59' y='681.0' text-anchor='middle' font-family='Helvetica, Arial, sans-serif' font-size='11' font-weight='700' fill='#ffffff'>GND</text>
+<rect x='710' y='70' width='260' height='208' rx='8' fill='#ffffff' stroke='#57606a' stroke-width='1.5'/>
+<text x='840.0' y='89' text-anchor='middle' font-family='Helvetica, Arial, sans-serif' font-size='14' font-weight='700' fill='#1f2328'>MAX98357A amplifier</text>
+<text x='840.0' y='105' text-anchor='middle' font-family='Helvetica, Arial, sans-serif' font-size='11.5' fill='#57606a'>I2S, mono</text>
+<text x='722' y='131.0' text-anchor='start' font-family='Helvetica, Arial, sans-serif' font-size='12.5' fill='#1f2328'>BCLK</text>
+<circle cx='710' cy='127.0' r='3.5' fill='#8250df'/>
+<text x='722' y='157.0' text-anchor='start' font-family='Helvetica, Arial, sans-serif' font-size='12.5' fill='#1f2328'>LRC</text>
+<circle cx='710' cy='153.0' r='3.5' fill='#8250df'/>
+<text x='722' y='183.0' text-anchor='start' font-family='Helvetica, Arial, sans-serif' font-size='12.5' fill='#1f2328'>DIN</text>
+<circle cx='710' cy='179.0' r='3.5' fill='#8250df'/>
+<text x='722' y='209.0' text-anchor='start' font-family='Helvetica, Arial, sans-serif' font-size='12.5' fill='#1f2328'>VIN</text>
+<rect x='920' y='196.0' width='42' height='18' rx='9' fill='#cf222e'/>
+<text x='941' y='209.0' text-anchor='middle' font-family='Helvetica, Arial, sans-serif' font-size='11' font-weight='700' fill='#ffffff'>5V</text>
+<text x='722' y='235.0' text-anchor='start' font-family='Helvetica, Arial, sans-serif' font-size='12.5' fill='#1f2328'>GND</text>
+<rect x='920' y='222.0' width='42' height='18' rx='9' fill='#30363d'/>
+<text x='941' y='235.0' text-anchor='middle' font-family='Helvetica, Arial, sans-serif' font-size='11' font-weight='700' fill='#ffffff'>GND</text>
+<text x='840.0' y='261.0' text-anchor='middle' font-family='Helvetica, Arial, sans-serif' font-size='11.5' fill='#57606a'>Speaker + / - go to the speaker only</text>
+<rect x='710' y='330' width='260' height='104' rx='8' fill='#ffffff' stroke='#57606a' stroke-width='1.5'/>
+<text x='840.0' y='349' text-anchor='middle' font-family='Helvetica, Arial, sans-serif' font-size='14' font-weight='700' fill='#1f2328'>Activate toggle</text>
+<text x='722' y='391.0' text-anchor='start' font-family='Helvetica, Arial, sans-serif' font-size='12.5' fill='#1f2328'>Switch</text>
+<circle cx='710' cy='387.0' r='3.5' fill='#7d5a2c'/>
+<text x='722' y='417.0' text-anchor='start' font-family='Helvetica, Arial, sans-serif' font-size='12.5' fill='#1f2328'>Other leg</text>
+<rect x='920' y='404.0' width='42' height='18' rx='9' fill='#30363d'/>
+<text x='941' y='417.0' text-anchor='middle' font-family='Helvetica, Arial, sans-serif' font-size='11' font-weight='700' fill='#ffffff'>GND</text>
+<rect x='710' y='444' width='260' height='104' rx='8' fill='#ffffff' stroke='#57606a' stroke-width='1.5'/>
+<text x='840.0' y='463' text-anchor='middle' font-family='Helvetica, Arial, sans-serif' font-size='14' font-weight='700' fill='#1f2328'>Fire button</text>
+<text x='840.0' y='479' text-anchor='middle' font-family='Helvetica, Arial, sans-serif' font-size='11.5' fill='#57606a'>momentary, normally open</text>
+<text x='722' y='505.0' text-anchor='start' font-family='Helvetica, Arial, sans-serif' font-size='12.5' fill='#1f2328'>Button</text>
+<circle cx='710' cy='501.0' r='3.5' fill='#7d5a2c'/>
+<text x='722' y='531.0' text-anchor='start' font-family='Helvetica, Arial, sans-serif' font-size='12.5' fill='#1f2328'>Other leg</text>
+<rect x='920' y='518.0' width='42' height='18' rx='9' fill='#30363d'/>
+<text x='941' y='531.0' text-anchor='middle' font-family='Helvetica, Arial, sans-serif' font-size='11' font-weight='700' fill='#ffffff'>GND</text>
+<line x1='30' y1='738' x2='58' y2='738' stroke='#1f6feb' stroke-width='2.5'/>
+<text x='64' y='742' font-family='Helvetica, Arial, sans-serif' font-size='12' fill='#1f2328'>NeoPixel data</text>
+<line x1='169' y1='738' x2='197' y2='738' stroke='#0a7d6c' stroke-width='2.5'/>
+<text x='203' y='742' font-family='Helvetica, Arial, sans-serif' font-size='12' fill='#1f2328'>SPI (SD card)</text>
+<line x1='308' y1='738' x2='336' y2='738' stroke='#8250df' stroke-width='2.5'/>
+<text x='342' y='742' font-family='Helvetica, Arial, sans-serif' font-size='12' fill='#1f2328'>I2S audio</text>
+<line x1='419' y1='738' x2='447' y2='738' stroke='#7d5a2c' stroke-width='2.5'/>
+<text x='453' y='742' font-family='Helvetica, Arial, sans-serif' font-size='12' fill='#1f2328'>Switch input</text>
+<text x='30' y='768' font-family='Helvetica, Arial, sans-serif' font-size='12' fill='#57606a'>Coloured tags are power connections: 5V = regulated 5V supply, 3V3 = the board's 3.3V pin, GND = common ground.</text>
+<text x='30' y='786' font-family='Helvetica, Arial, sans-serif' font-size='12' fill='#57606a'>Every ground is joined. Pixels and the amp should take 5V straight from the supply, not through the controller board.</text>
+<text x='30' y='804' font-family='Helvetica, Arial, sans-serif' font-size='12' fill='#57606a'>Wand chain order: 4-pixel bargraph, two body lights, vent, 3-pixel firing strip. Data-line resistors are recommended.</text>
+<text x='30' y='822' font-family='Helvetica, Arial, sans-serif' font-size='12' fill='#57606a'>Give the ESP32 its own 5V supply or regulator: sharing the amp's feed caused resets while firing.</text>
+</svg>

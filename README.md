@@ -36,7 +36,7 @@ No sound files are included. You need your own SD card of GPStar-numbered WAVs
 ## Hardware used
 
 Parts are listed by type; where the code depends on a specific part, it is
-named. Pin tables, wiring and power notes are in
+named. Wiring diagrams, pin tables and power notes are in
 [docs/hardware.md](docs/hardware.md).
 
 ### Main pack

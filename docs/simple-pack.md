@@ -8,6 +8,8 @@ limit, overheat and mute gesture.
 
 ## Hardware
 
+![Simple pack wiring diagram](images/wiring-simple-pack.svg)
+
 | Item | GPIO |
 | --- | --- |
 | Cyclotron: four 7-pixel jewels (28 pixels) | 22 |
