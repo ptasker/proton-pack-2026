@@ -130,8 +130,8 @@
   1984/1989 (4 windows, 500 ms, 1.5-step fade, circular ramps 3 s / 2.5 s or 0.1 s,
   no fade-out); Frozen Empire uses the Afterlife renderer with a 2.6 s ramp-down.
   Shutdown length is `themeShutdownMs()`. All 52 theme tracks verified on card.
-- Music (500+) plays at `MUSIC_LEVEL_DB` (-6); by request, while any music plays
-  the effects (below 500) duck `EFFECTS_UNDER_MUSIC_DB` (-10) via `setEffectsTrim()`. Card has 500 (GPStar's licensed
+- Music (500+) plays at `MUSIC_LEVEL_DB` (-2); by request, while any music plays
+  the effects (below 500) duck `EFFECTS_UNDER_MUSIC_DB` (-20) via `setEffectsTrim()`. Card has 500 (GPStar's licensed
   track) plus user-added songs; never supply copyrighted audio.
 - Pack Wi-Fi (2026-10-07, step 1): own AP via `PackWeb.h` + `PackWebPage.h`
   (ESPAsyncWebServer 3.x on Arduino 2.0.17, AsyncTCP on core 1). Password lives in

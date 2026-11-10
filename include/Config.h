@@ -114,7 +114,6 @@ constexpr bool OTA_ENABLED = true;
 // power cycle; lights, wand link, mute and beeps keep working.
 constexpr bool BLUETOOTH_ENABLED = true;
 constexpr uint32_t MODE_GESTURE_MS = 3000;  // Activate off: Vent on 3 times within this
-constexpr bool OTA_ENABLED_PLACEHOLDER = true;       // pio run -e pack_ota -t upload (needs Wi-Fi)
 
 constexpr uint32_t STARTUP_MS = 1500;
 // GPStar Afterlife shutdown: the cyclotron keeps spinning at full brightness while
