@@ -1,0 +1,40 @@
+name: Build firmware
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        environment:
+          - wand_c3
+          - esp32dev
+          - simple_pack
+          - bargraph_scan_c3
+          - pack_audio_test
+          - simple_pixel_test
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/cache@v4
+        with:
+          path: ~/.platformio
+          key: platformio-${{ matrix.environment }}-${{ hashFiles('platformio.ini') }}
+      - name: Install PlatformIO
+        run: pip install platformio
+      # The real WifiSecrets.h is git-ignored. Use the example so the Wi-Fi,
+      # web page and update code are compiled too.
+      - name: Use example Wi-Fi settings
+        run: cp include/WifiSecrets.example.h include/WifiSecrets.h
+      - name: Build ${{ matrix.environment }}
+        run: pio run -e ${{ matrix.environment }}
